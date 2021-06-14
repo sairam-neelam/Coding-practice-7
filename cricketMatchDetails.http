@@ -1,0 +1,25 @@
+GET http://localhost:3004/players/ 
+###
+
+GET http://localhost:3004/players/2/
+###
+
+PUT http://localhost:3004/players/2/
+Content-Type: application/json
+
+{
+  "playerName": "Raju"
+}
+###
+
+GET http://localhost:3004/matches/18/
+###
+
+GET http://localhost:3004/players/2/matches
+###
+
+GET http://localhost:3004/matches/9/players
+###
+
+GET http://localhost:3004//players/6/playerScores
+###
